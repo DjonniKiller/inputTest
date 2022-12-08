@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.box form .input_block input:focus label{
+    top: 15;
+    transition: 0.5s;
+}
+
+.box{
+    width: 400px;
+    background: black;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.box form .input_block{
+    position: relative;
+}
+
+.box form .input_block input{
+    width: 100%;
+    background: transparent;
+    height: 50px;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    padding: 0 20px;
+    box-sizing: border-box;
+    font-size: 19px;
+}
+
+.box form .input_block label{
+    color: rgb(20, 104, 173);
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    box-sizing: border-box;
+    font-size: 19px;
+    width: 100%;
+    padding: 0 20px;
+}
